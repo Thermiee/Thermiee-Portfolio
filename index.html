@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar py-3 navbar-expand-lg navbar-dark">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myProjects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="container py-5 mb-5" id="about">
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-4 mx-auto position-relative">
+        <img src="img/thermiee.JPG" class="img-fluid mb-5" alt="">
+        <div class="fs-1 proj position-absolute d-none d-sm-block"><span id="projectCounter">${count}</span><small
+            class="fs-5 text-info"><br>projects.</small></div>
+      </div>
+      <div class="col-md-9 col-lg-5 mx-auto">
+        <h2 class="mb-3 mt-3">I build Web features and products</h2>
+        <p class="mt-4">
+          <span class="text-muted">Hello</span> 👋
+          <span class="text-muted">! My name is Emmanuel Jolugbo. I am a full-stack developer with
+            skills in Ruby, Ruby on Rails, JavaScript and ReactJs.<br><br>
+            I am currently working remotely in a team with other developers
+            at Microverse, an online training school, where we pair-program and
+            build projects together. I have acquired teamwork and good communication
+            skills from coding everyday with other developers around the world.</span>
+        </p>
+        <div class="d-flex align-items-center mt-4">
+          <a href="https://docs.google.com/document/d/1cMmLT9p29rYM_ktRSsaC1pFPcnady0szp54aNeXqdhk/edit" target="_blank"
+            class="btn btn-danger rounded-0 text-light px-4 py-2 me-4">Resume</a>
+          <div class="">
+            <a class="ms-4 d-inline-block" href="https://github.com/thermiee" target="_blank">
+              <img src="img/github-brands.svg" alt="" height="20px" />
+            </a>
+            <a class="ms-4 d-inline-block" href="https://www.linkedin.com/in/Emmanuel-Jolugbo/" target="_blank">
+              <img src="img/linkedin-in-brands.svg" alt="" height="20px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="my-products" id="projects">
+      <div class="container py-5">
+        <div class="my-5">
+          <div class="row" id="myProjects"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact me -->
+    <div class="container mt-4" id="contact">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="my-products py-5 px-4">
+            <h2 class="text-center mt-5">Got an idea? Tell me and let's work</span></h2>
+            <h2 class="text-center mb-5">together to <span class="text-info">make it happen!</span></h2>
+            <div class="row">
+              <div class="col-lg-6 mx-auto">
+                <form action="https://formspree.io/f/xzbodpro" class="mb-4" method="POST">
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <input type="text" name="fullName" placeholder="Name"
+                        class="form-control bg-transparent rounded-0 text-white" required />
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <input type="email" name="email" id="email"
+                        class="form-control bg-transparent rounded-0 text-white" placeholder="Email Address" required />
+                    </div>
+                    <div class="col-lg-12 mb-4">
+                      <textarea name="message" placeholder="Message"
+                        class="form-control bg-transparent rounded-0 text-white" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="col-lg-12 mb-5">
+                      <button class="btn btn-danger text-light rounded-0 w-100" type="submit">Contact me</button>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-5 text-muted"><small>&copy; 2022 &middot; Made by <a class="text-info"
+        href="https://github.com/thermiee">Emmanuel Jolugbo</a></small></footer>
+
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/7290f27402.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
