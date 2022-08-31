@@ -4,25 +4,28 @@
 
 > Building a Portfolio page about myself and my projects
 
+![screenshot](./images/app_screenshot.png)
 
 ## Live Demo
 
-[Live Demo](https://thermiee.github.io/Thermiee-Portfolio/)
-
-## Built With
-- HTML
-- CSS
-- JS
+https://thermiee.github.io/Portfolio/
 
 
 ## Getting Started
 
+To get a local copy up and running follow these simple example steps.
 
-#### Cloning the project
-```
- https://github.com/Thermiee/Thermiee-Portfolio
-```
+### Prerequisites
 
+A Web Browser (preferably Google Chrome)
+
+### Setup
+
+Clone the GitHub Repository
+
+### Usage
+
+Open index.html in Chrome
 
 
 ## Authors
@@ -32,6 +35,9 @@
 - GitHub: [@Thermiee](https://github.com/thermiee)
 
 ## 🤝 Contributing
+
+-GitHub: [@Mutalenic](https://github.com/Mutalenic)
+-GitHub: [@Joseph](https://github.com/joseph07-drack)
 
 Contributions, issues, and feature requests are welcome!
 
