@@ -36,8 +36,8 @@ Open index.html in Chrome
 
 ## 🤝 Contributing
 
--GitHub: [@Mutalenic](https://github.com/Mutalenic)
--GitHub: [@Joseph](https://github.com/joseph07-drack)
+- GitHub: [@Mutalenic](https://github.com/Mutalenic)
+- GitHub: [@Joseph](https://github.com/joseph07-drack)
 
 Contributions, issues, and feature requests are welcome!
 
