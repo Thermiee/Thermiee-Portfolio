@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://thermiee.github.io/Portfolio/
+https://thermiee.github.io/Thermiee-Portfolio/
 
 
 ## Getting Started
@@ -33,11 +33,6 @@ Open index.html in Chrome
 👤 **Emmanuel Jolugbo**
 
 - GitHub: [@Thermiee](https://github.com/thermiee)
-
-## 🤝 Contributing
-
-- GitHub: [@Mutalenic](https://github.com/Mutalenic)
-- GitHub: [@Joseph](https://github.com/joseph07-drack)
 
 Contributions, issues, and feature requests are welcome!
 
