@@ -34,11 +34,6 @@ Open index.html in Chrome
 
 - GitHub: [@Thermiee](https://github.com/thermiee)
 
-## 🤝 Contributing
-
--GitHub: [@Mutalenic](https://github.com/Mutalenic)
--GitHub: [@Joseph](https://github.com/joseph07-drack)
-
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
